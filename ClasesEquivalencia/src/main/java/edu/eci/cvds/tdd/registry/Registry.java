@@ -8,7 +8,7 @@ public class Registry {
     public RegisterResult registerVoter(Person p) {
     	
         // Invalid age
-        if (p.getAge()<0 & p.getAge()>125) {
+        if (p.getAge()<0 || p.getAge()>125) {
         	return RegisterResult.INVALID_AGE;
         }
         else if( p.getAge() < 18 & p.getAge() >= 0) {
