@@ -14,7 +14,14 @@
 | Valid              | ¬Dead & ¬Invalid Age & ¬UnderAge & ¬Duplicated & ¬NoName & ¬InvalidGender | Registro valido         |
 
 
-**El git ignore se encuentra oculto
+
+##Integrantes
+
+Sergio Alejandro Bohorquez
+German Simon Marín
+
+##Notas
+*El git ignore se encuentra oculto*
 git rm -rf --cached .
 
 
