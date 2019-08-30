@@ -18,12 +18,10 @@
 ## Integrantes
 
 Sergio Alejandro Bohorquez
-
 German Simon Marín
 
 ## Notas
 * El git ignore se encuentra oculto *
-
 git rm -rf --cached .
 
 
