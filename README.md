@@ -1,5 +1,6 @@
 # CVDS-LAB03
-
+## INTEGRANTES
+ SIMÓN MARÍN y ALEJANDRO BOHÓRQUEZ
 
 
 ## Clases de Equivalencia
@@ -12,3 +13,9 @@
 | Duplicated         | persona ∈ personas & edad >= 18 & edad < 125 y vivo = true                | Persona ya registrada   |
 | NoName             | nombre = null & edad >=0 & edad <= 125                                    | Persona sin nombre      |
 | Valid              | ¬Dead & ¬Invalid Age & ¬UnderAge & ¬Duplicated & ¬NoName & ¬InvalidGender | Registro valido         |
+
+
+
+
+# Un comando que nos servirá mas adelante
+ git rm -rf --cached .
